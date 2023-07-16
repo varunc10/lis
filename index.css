@@ -1,0 +1,131 @@
+/* Add some padding to the container */
+
+/* body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Style the table */
+/* table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}  */
+
+
+/* Style the table rows */
+
+
+/* td {
+    padding: 10px;
+    border: 2px solid #ddd;
+    text-align: center;
+} */
+
+
+/* Style the header and footer */
+/* header,
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 15vh;
+} */
+
+/* Style the main content */
+/* main {
+    background-color: #fff;
+    height: 70vh;
+} */
+
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    height: 75px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Main container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    font-weight: bold;
+}
+
+
+/* Display message styles */
+.displayMessage {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    height: 200px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Button styles */
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+/* Font Awesome styles */
+.fa {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-delete-left:before {
+    content: "\f537";
+}
+
+.fa-times:before {
+    content: "\f00d";
+}
